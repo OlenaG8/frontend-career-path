@@ -1,0 +1,116 @@
+body {
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    background: #332720;
+    color: #ffffff;
+}
+
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#icon {
+    width: 170px;
+    border-radius: 50%;
+    border: 0px;
+    border: 5px solid #ffffff;
+}
+
+#fav-books {
+    background: #5e503f;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 0;
+}
+
+.books-section {
+    margin-top: 5px;
+}
+
+.book-hint {
+    margin-bottom: 50px;
+}
+
+.book-title {
+    margin-bottom: 10px;
+}
+
+.book1-img {
+    margin: 20px auto;
+    max-width: 500px;
+    height: 700px;
+    border: 6px solid #ffffff;
+    border-radius: 10px;
+    background-image: url("images/book1.jpg");
+    background-size: cover;
+}
+
+#book1-img:hover {
+    background-image: url("images/under/1.png");
+}
+
+.book2-img {
+    margin: 20px auto;
+    max-width: 500px;
+    height: 700px;
+    border: 6px solid #ffffff;
+    border-radius: 10px;
+    background-image: url("images/book2.jpg");
+    background-size: cover;
+}
+
+#book2-img:hover {
+    background-image: url("images/under/2.png");
+}
+
+.book3-img {
+    margin: 20px auto;
+    max-width: 500px;
+    height: 700px;
+    border: 6px solid #ffffff;
+    border-radius: 10px;
+    background-image: url("images/book3.jpg");
+    background-size: cover;
+}
+
+#book3-img:hover {
+    background-image: url("images/under/3.png");
+}
+
+.book4-img {
+    margin: 20px auto;
+    max-width: 500px;
+    height: 700px;
+    border: 6px solid #ffffff;
+    border-radius: 10px;
+    background-image: url("images/book4.jfif");
+    background-size: cover;
+}
+
+#book4-img:hover {
+    background-image: url("images/under/4.png");
+}
+
+.book5-img {
+    margin: 20px auto;
+    max-width: 500px;
+    height: 700px;
+    border: 6px solid #ffffff;
+    border-radius: 10px;
+    background-image: url("images/book5.jfif");
+    background-size: cover;
+}
+
+#book5-img:hover {
+    background-image: url("images/under/5.png");
+}
+
+#finito {
+    font-style: italic;
+    width: 500px;
+    margin: 40px auto 50px;
+}
+
