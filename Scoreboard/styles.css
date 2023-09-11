@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    background: #1B244A;
+    color: #EEEEEE;
+    font-family: 'Kanit', sans-serif;
+}
+
+@font-face {
+    font-family: 'MyFont';
+    src: url('digital-7-font/Digital7-rg1mL.ttf');
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    font-size: 48px;
+}
+
+.column {
+    flex: 1;
+    padding: 30px;
+    text-align: center;
+}
+
+.rectangle {
+    width: 100%;
+    height: 300px;
+    background: #080001;
+    color: #F94F6D;
+    border-radius: 8px;
+    font-family: 'MyFont';
+    font-size: 260px;
+}
+
+.board {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button {
+    background: transparent;
+    color: #9AABD8;
+    border: solid 3px #9AABD8;
+    border-radius: 6px;
+    padding: 10px 30px;
+    margin-top: 30px;
+    font-family: 'MyFont';
+    font-size: 26px;
+}
+
+button:hover {
+    background: #9AABD8;
+    color: #080001;
+}
+
+#resetbtn {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font: inherit;
+    font-size: 32px;
+    margin-top: 50px;
+}
